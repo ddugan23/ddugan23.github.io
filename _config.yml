@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David Dugan / Portfolio"
+title                    : "David's Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "David Dugan"
 description              : &description "personal description"
 url                      : https://ddugan23.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "David Dugan"
-  avatar           : "/images/LinkedinGreyBG.png"
+  avatar           : "LinkedinGreyBG.png"
   bio              : "Aspiring SWE"
   location         : "Vancouver, BC"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "dugandavid4@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
