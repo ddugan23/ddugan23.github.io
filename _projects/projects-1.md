@@ -4,4 +4,5 @@ excerpt: "This project is a comprehensive data analysis case study of Cyclistic,
 collection: projects
 ---
 
-<iframe src='/files/DAAnalysis.html' width="100%" height="600px"></iframe>
+Process: [link](/files/DAAnalysis.html)
+Analysis: [link](/files/Cyclistic%20Bike%20Analysis.pdf)
