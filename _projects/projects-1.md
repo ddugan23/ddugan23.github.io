@@ -4,6 +4,7 @@ excerpt: "This project is a comprehensive data analysis case study of Cyclistic,
 collection: projects
 ---
 
+
 Jupyter Notebook: [link](https://nbviewer.org/github/ddugan23/ddugan23.github.io/blob/master/files/analyze.ipynb)
 
 ## Cyclistic Bike-Share Analysis Report
@@ -18,22 +19,22 @@ The analysis utilized historical trip data from Cyclistic, spanning from June 20
 3. *Data Cleaning and Manipulation*
 
 The initial data consolidation involved combining twelve monthly datasets into a single dataset. The data cleaning process entailed:
-    •	Dropping rows with missing latitude and longitude values to ensure accuracy in location-based analysis.
-    •	Converting the 'started_at' and 'ended_at' columns to datetime format for easier manipulation.
-    •	Calculating the trip duration in minutes for further analysis.
+    -	Dropping rows with missing latitude and longitude values to ensure accuracy in location-based analysis.
+    -	Converting the 'started_at' and 'ended_at' columns to datetime format for easier manipulation.
+    -	Calculating the trip duration in minutes for further analysis.
 
 4. *Summary of Analysis*
 
 The analysis focused on three different aspects:
-    •	**Average Trip Duration:** The average trip duration was calculated for each user type, revealing that casual riders have significantly longer trip durations compared to annual members.
-    •	**Usage Patterns by Time and Day:** Analysis of trip frequency by day of the week and hour of the day for each user type highlighted distinct usage patterns between casual riders and members.
-    •	**Station Popularity:** The most frequently used start and end stations were identified for each user type, indicating preferences in station usage.
+    -	**Average Trip Duration:** The average trip duration was calculated for each user type, revealing that casual riders have significantly longer trip durations compared to annual members.
+    -	**Usage Patterns by Time and Day:** Analysis of trip frequency by day of the week and hour of the day for each user type highlighted distinct usage patterns between casual riders and members.
+    -	**Station Popularity:** The most frequently used start and end stations were identified for each user type, indicating preferences in station usage.
 
 5. *Visualizations and Key Findings*
 
-    •	**Trip Duration Differences:** A bar chart depicting average trip durations showcased that casual riders tend to use bikes for longer periods.
-    •	**Weekly and Hourly Usage Patterns:** Bar charts for weekly and hourly usage illustrated variances in trip frequencies, with casual riders showing similar hourly peak usage times but different daily peak usage times.
-    •	**Popular Stations:** A bar chart highlighting the top stations for casual users provided insights into the most popular locations for casual bike usage, with the station at Streeter Dr. & Grand Ave. being the starting station for more than double the number of rides compared to any other station.
+    -	**Trip Duration Differences:** A bar chart depicting average trip durations showcased that casual riders tend to use bikes for longer periods.
+    -	**Weekly and Hourly Usage Patterns:** Bar charts for weekly and hourly usage illustrated variances in trip frequencies, with casual riders showing similar hourly peak usage times but different daily peak usage times.
+    -	**Popular Stations:** A bar chart highlighting the top stations for casual users provided insights into the most popular locations for casual bike usage, with the station at Streeter Dr. & Grand Ave. being the starting station for more than double the number of rides compared to any other station.
 
 6. *Top Three Recommendations*
 
