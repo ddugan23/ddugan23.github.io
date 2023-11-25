@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ![Squamish, British Columbia](/images/Squamish.jpg){: .align-right width="300px"}
-Welcome to my page! I am a dynamic professional with a rich background in CRM management, public speaking, and creative problem-solving. Most notably, at The Data Storytellers, I spearheaded a complex CRM transition from Pipedrive to HubSpot, mastering automation workflows and data management, and skillfully navigated website DNS challenges during pivotal website migrations.
+Welcome to my page! I am a professional distinguished by expertise in Customer Relationship Management (CRM) systems, public speaking, and creative problem-solving. During my time at The Data Storytellers, I spearheaded a complex CRM transition from Pipedrive to HubSpot, mastering automation workflows and data management, and skillfully navigated website DNS challenges during pivotal website migrations.
 
 My journey also includes a stint as a Game Master at i-Exit Escape Rooms, where I developed my skills in relationship building and multitasking, managing multiple interactive experiences simultaneously. This role significantly enhanced my public speaking abilities, often engaging with groups as large as 30.
 
