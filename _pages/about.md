@@ -3,17 +3,17 @@ permalink: /
 title: "About Me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-![Squamish, British Columbia](/images/Squamish.jpg){: .align-right width="300px"} 
+![Squamish, British Columbia](/images/Squamish.jpg){: .align-right width="300px"}
 Welcome to my page! I am a dynamic professional with a rich background in CRM management, public speaking, and creative problem-solving. Most notably, at The Data Storytellers, I spearheaded a complex CRM transition from Pipedrive to HubSpot, mastering automation workflows and data management, and skillfully navigated website DNS challenges during pivotal website migrations.
 
 My journey also includes a stint as a Game Master at i-Exit Escape Rooms, where I developed my skills in relationship building and multitasking, managing multiple interactive experiences simultaneously. This role significantly enhanced my public speaking abilities, often engaging with groups as large as 30.
 
-Academically, my background in Economics and Film Production has provided me with a versatile skill set. While Economice has opened doors in various industries, my love for film has nurtured a passion for VFX and video editing, which I continue to pursue as a fulfilling side-hustle.
+Academically, my background in Economics and Film Production has provided me with a versatile skill set. While Economics has opened doors in various industries, my love for film has nurtured a passion for VFX and video editing, which I continue to pursue as a fulfilling side-hustle.
 
 Currently, I'm actively seeking new opportunities that align with my long-term goal of excelling in project management/DevOps. My experiences have equipped me with a unique blend of technical savvy and creative acumen, making me an ideal candidate for roles that require both analytical thinking and innovative problem-solving. If you're looking for someone who can bring a fresh perspective to your team, or if you'd like to collaborate, please feel free to reach out!
 
