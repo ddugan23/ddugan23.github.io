@@ -24,3 +24,4 @@ As I navigate towards the realms of project management and, over the long run, D
 | [HubSpot Marketing Software](https://app.hubspot.com/academy/achievements/xrcss8jf/en/1/david-dugan/hubspot-marketing-software) | 2023 | Demonstrated proficiency in the essential functions of Marketing Hub and its core tools. |
 | [HubSpot Email Marketing](https://app.hubspot.com/academy/achievements/kl4m66ms/en/1/david-dugan/email-marketing) | 2023 | Tested on best practices that focus on segmentation, high-performing email sends, outlining email design, email deliverability, and reporting. |
 | [Google Data Analytics Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/ZBC43V6S5GKM) | 2022 | Competency in tools and platforms including spreadsheets, SQL, Tableau, and R. Also learned how to prepare, process, analyze, and share data for thoughtful action. |
+
