@@ -13,7 +13,7 @@ Welcome to my page! I am a professional distinguished by expertise in Customer R
 
 My academic pursuits in Economics and Film Production have been instrumental in shaping my professional trajectory. Economics has provided a foundation in analytical thinking and versatility, applicable across multiple industries. Concurrntly, Film Production allowed me to learn about content creation and narrative constuction, skills that are quintessential in the realm of marketing and communication strategy developmeent. The synthesis of these disciplines has afforded me a unique perspective, allowing for the application of storytelling principles in data-driven environments.
 
-Additional facets of my career include
+Additional facets of my career include a tenure as a Game Master at i-Exit Escape Rooms, where I refined my 
 
 Currently, I'm actively seeking new opportunities that align with my long-term goal of excelling in project management/DevOps. My experiences have equipped me with a unique blend of technical savvy and creative acumen, making me an ideal candidate for roles that require both analytical thinking and innovative problem-solving. If you're looking for someone who can bring a fresh perspective to your team, or if you'd like to collaborate, please feel free to reach out!
 
