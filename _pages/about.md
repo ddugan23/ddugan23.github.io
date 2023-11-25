@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 ![Squamish, British Columbia](/images/Squamish.jpg){: .align-right width="300px"}
-Welcome to my page! I am a professional distinguished by expertise in Customer Relationship Management (CRM) systems, public speaking, and creative problem-solving. During my time at The Data Storytellers, I spearheaded a significant transition of CRM platforms from Pipedrive to HubSpot, a process that called for the creation of numerous automation workflows and meticulous data management. This endeavor not only required a solid understanding of technical systems but
+Welcome to my page! I am a professional distinguished by expertise in Customer Relationship Management (CRM) systems, public speaking, and creative problem-solving. During my time at The Data Storytellers, I spearheaded a significant transition of CRM platforms from Pipedrive to HubSpot, a process that called for the creation of numerous automation workflows and meticulous data management. This endeavor not only necessitated a solid understanding of technical systems but also required the harmonization of sales and marketing straategies demonstrating my capacity for comprehensive operational oversight.
 
-My journey also includes a stint as a Game Master at i-Exit Escape Rooms, where I developed my skills in relationship building and multitasking, managing multiple interactive experiences simultaneously. This role significantly enhanced my public speaking abilities, often engaging with groups as large as 30.
+My academic pursuits in Economics and Film Production have been instrumental in shaping my professional trajectory. Economics has provided a foundation in analytical thinking and versatility, applicable across multiple industries. Concurrntly, Film Production allowed me to learn and develop skills content creation and narrative constuction
 
 Academically, my background in Economics and Film Production has provided me with a versatile skill set. While Economics has opened doors in various industries, my love for film has nurtured a passion for VFX and video editing, which I continue to pursue as a fulfilling side-hustle.
 
