@@ -15,7 +15,7 @@ My academic pursuits in Economics and Film Production have been instrumental in 
 
 Additional facets of my career include a tenure as a Game Master at i-Exit Escape Rooms, where I refined my skills in public speaking and customer engagement, managing diverse and interactive experiences. This role was complemented by my experience as a Media Intern, where I distilled long-form video content into focused, topic-specific segments. This role reinforced the importance of precision and attention to detail, qualities that have remained paramount throughout my career.
 
-As I navigate towards the realms of project management and, over the long run, DevOps, my diverse skill set positions me uniquely for roles demanding both technical acumen and creative problem-solving. The integration of continuout learning, goal orientation, and a commitment to reliability  If you're looking for someone who can bring a fresh perspective to your team, or if you'd like to collaborate, please feel free to reach out!
+As I navigate towards the realms of project management and, over the long run, DevOps, my diverse skill set positions me uniquely for roles demanding both technical acumen and creative problem-solving. The integration of continuout learning, goal orientation, and a commitment to reliability forms the foundation of my character. In pursuit of new opportunities, I remain dedicated to applying my extensive skill set to innovate and drive forward-thinking strategies in dynamic environments. If you're looking for someone who can bring a fresh perspective to your team, or if you'd like to collaborate, please feel free to reach out!
 
 | Certification | Date | Description |
 |---|---|---|
