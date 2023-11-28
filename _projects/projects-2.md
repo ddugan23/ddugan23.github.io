@@ -19,16 +19,16 @@ The task was to create a script that:
 ### Converting Unix Timestamp to Datetime
 The script begins with a utility function to convert Unix timestamps to Python datetime objects.
 
-<pre>
+```
 def convert_timestamp_to_date(timestamp):
     return datetime.fromtimestamp(timestamp, timezone.utc).date()
-</pre>
+```
 *This function is essential for interpreting the time data from Hacker News API responses.*
 
 ### Fetching Individual Item Details
 The core of the script is fetching details for specific items from Hacker News.
 
-<pre>
+```
 def get_item_details(item_id):
     base_url = "https://hacker-news.firebaseio.com/v0/item/"
     try:
@@ -38,13 +38,13 @@ def get_item_details(item_id):
     except requests.RequestException as e:
         print(f"Error fetching item details: {e}")
         return None
-</pre>
+```
 *This function retrieves details for a given item, handling any request errors gracefully.*
 
 ### Fetching and Sorting Top Stories
 The main functionality revolves around fetching the top stories for the current day and sorting them by score.
 
-<pre>
+```
 def get_top_stories():
     top_stories = []
     current_date = datetime.now(timezone.utc).date()
@@ -68,26 +68,26 @@ def get_top_stories():
         print(f"Error fetching top stories: {e}")
 
     return top_stories
-</pre>
+```
 *This function fetches the latest stories and filters them to find the top 10 for the current day.*
 
 ### Displaying the Stories
 The script concludes with a function to neatly display each story's title, score, and Hacker News post URL.
 
-<pre>
+```
 def display_stories(stories):
     for idx, story in enumerate(stories, start=1):
         title = story.get('title', 'No Title')
         score = story.get('score', 'No Score')
         hn_url = f"https://news.ycombinator.com/item?id={story.get('id')}"
         print(f"{idx}. {title} (Score: {score})\nHacker News Post: {hn_url}\n")
-</pre>
+```
 *Formats and prints the top 10 stories, making them easy to read and understand.*
 
 ### Enhanced Story Fetching and Display
 Finally, an enhanced function combines all previous functionalities, fetching and displaying the top stories.
 
-<pre>
+```
 def get_top_stories_corrected():
     try:
         top_stories = get_top_stories()
@@ -98,12 +98,12 @@ def get_top_stories_corrected():
             print("No stories found for the current day.")
     except Exception as e:
         print(f"An error occurred: {e}")
-</pre>
+```
 *This function serves as the script's entry point, orchestrating the fetching, sorting, and displaying of stories.*
 
 ### Full Script
 
-<pre>
+```
 import requests
 from datetime import datetime, timezone
 
@@ -171,7 +171,7 @@ if __name__ == "__main__":
     print("Fetching top stories for the current day...\n")
     get_top_stories_corrected()
 
-</pre>
+```
 
 ## Conclusion
 This script effectively showcases my ability to work with external APIs, process data, and present it in a user-friendly manner. Future enhancements could include a web interface for broader accessibility.
