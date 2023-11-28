@@ -1,5 +1,5 @@
 ---
-title: "HackerNews Top Stories Fetcher Script"
+title: "Hacker News Top Stories Fetcher Script"
 excerpt: "This project showcases a Python script I developed to retrieve the top 10 stories from Hacker News for the current day. The script demonstrates proficiency in API integration, data processing, and presenting information in a readable format.<br/><img src='/images/hnscript500x300.png'>"
 collection: projects
 ---
