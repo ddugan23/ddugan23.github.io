@@ -267,8 +267,8 @@ stories_frame = tk.Frame(app, bg=BG_COLOR)
 stories_frame.pack(fill="both", expand=True)
 
 app.mainloop()
-&lt;/code&gt;
-&lt;/pre&gt;
+</code>
+</pre>
 
 ### Full Script
 <pre><code>import tkinter as tk
@@ -323,7 +323,7 @@ def display_stories(stories, container):
         label.pack()
         link = tk.Label(container, text="Hacker News Post", fg="blue", cursor="hand2")
         link.pack()
-        link.bind("<Button-1>", lambda e, url=hn_url: webbrowser.open_new(url))
+        link.bind("&lt;Button-1&gt;", lambda e, url=hn_url: webbrowser.open_new(url))
 
 def fetch_stories():
     top_stories = get_top_stories()
