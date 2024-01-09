@@ -267,8 +267,8 @@ stories_frame = tk.Frame(app, bg=BG_COLOR)
 stories_frame.pack(fill="both", expand=True)
 
 app.mainloop()
-</code>
-</pre>
+&lt;/code&gt;
+&lt;/pre&gt;
 
 ### Full Script
 <pre><code>import tkinter as tk
