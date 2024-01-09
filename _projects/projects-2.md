@@ -357,8 +357,7 @@ stories_frame = tk.Frame(app, bg=BG_COLOR)
 stories_frame.pack(fill="both", expand=True)
 
 app.mainloop()
-</code>
-</pre>
+</code></pre>
 
-## Conclusion
+### Conclusion
 This script effectively showcases my ability to work with external APIs, process data, and present it in a user-friendly manner. Future enhancements could include a web interface for broader accessibility.
