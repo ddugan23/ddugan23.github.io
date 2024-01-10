@@ -19,15 +19,17 @@ The task was to create a script that:
 ### Converting Unix Timestamp to Datetime
 The script begins with a utility function to convert Unix timestamps to Python datetime objects.
 
-<pre><code>def convert_timestamp_to_date(timestamp):
+```python
+def convert_timestamp_to_date(timestamp):
     return datetime.fromtimestamp(timestamp, timezone.utc).date()
-</code></pre>
+```
 *This function is essential for interpreting the time data from Hacker News API responses.*
 
 ### Fetching Individual Item Details
 The core of the script is fetching details for specific items from Hacker News.
 
-<pre><code>def get_item_details(item_id):
+```python
+def get_item_details(item_id):
     base_url = "https://hacker-news.firebaseio.com/v0/item/"
     try:
         response = requests.get(f"{base_url}{item_id}.json")
@@ -36,13 +38,14 @@ The core of the script is fetching details for specific items from Hacker News.
     except requests.RequestException as e:
         print(f"Error fetching item details: {e}")
         return None
-</code></pre>
+```
 *This function retrieves details for a given item, handling any request errors gracefully.*
 
 ### Fetching and Sorting Top Stories
 The main functionality revolves around fetching the top stories for the current day and sorting them by score.
 
-<pre><code>def get_top_stories():
+```python
+def get_top_stories():
     top_stories = []
     current_date = datetime.now(timezone.utc).date()
 
@@ -65,25 +68,27 @@ The main functionality revolves around fetching the top stories for the current 
         print(f"Error fetching top stories: {e}")
 
     return top_stories
-</code></pre>
+```
 *This function fetches the latest stories and filters them to find the top 10 for the current day.*
 
 ### Displaying the Stories
 The script concludes with a function to neatly display each story's title, score, and Hacker News post URL.
 
-<pre><code>def display_stories(stories):
+```python
+def display_stories(stories):
     for idx, story in enumerate(stories, start=1):
         title = story.get('title', 'No Title')
         score = story.get('score', 'No Score')
         hn_url = f"https://news.ycombinator.com/item?id={story.get('id')}"
         print(f"{idx}. {title} (Score: {score})\nHacker News Post: {hn_url}\n")
-</code></pre>
+```
 *Formats and prints the top 10 stories, making them easy to read and understand.*
 
 ### Enhanced Story Fetching and Display
 Finally, an enhanced function combines all previous functionalities, fetching and displaying the top stories.
 
-<pre><code>def get_top_stories_corrected():
+```python
+def get_top_stories_corrected():
     try:
         top_stories = get_top_stories()
         if top_stories:
@@ -93,12 +98,13 @@ Finally, an enhanced function combines all previous functionalities, fetching an
             print("No stories found for the current day.")
     except Exception as e:
         print(f"An error occurred: {e}")
-</code></pre>
+```
 *This function serves as the script's entry point, orchestrating the fetching, sorting, and displaying of stories.*
 
 ### The Script So Far
 
-<pre><code>import requests
+```python
+import requests
 from datetime import datetime, timezone
 
 
@@ -164,8 +170,7 @@ def get_top_stories_corrected():
 if __name__ == "__main__":
     print("Fetching top stories for the current day...\n")
     get_top_stories_corrected()
-
-</code></pre>
+```
 
 ### Refactored Script
 To refactor the script for optimization, readability, and to remove unnecessary lines of code, I did the following:
@@ -175,7 +180,8 @@ To refactor the script for optimization, readability, and to remove unnecessary 
 4. **Refactor Display Function**: Ensured clear and concise output.
 5. **Remove Redundant Code**: Identified and eliminated any unnecessary lines. 
 
-<pre><code>import requests
+```python
+import requests
 from datetime import datetime, timezone
 
 # Fetches the top 10 stories from Hacker News for the current day
@@ -230,12 +236,13 @@ def main():
 
 if __name__ == "__main__":
     main()
-</code></pre>
+```
 
 ### Adding a GUI
 I used Tkinter to create a simple GUI for the program, which included creating two buttons and stylizing the main window.
 
-<pre><code>def fetch_stories():
+```python
+def fetch_stories():
     top_stories = get_top_stories()
     if top_stories:
         display_stories(top_stories, stories_frame)
@@ -267,11 +274,11 @@ stories_frame = tk.Frame(app, bg=BG_COLOR)
 stories_frame.pack(fill="both", expand=True)
 
 app.mainloop()
-</code>
-</pre>
+```
 
 ### Full Script
-<pre><code>import tkinter as tk
+```python
+import tkinter as tk
 from tkinter import ttk
 import requests
 from datetime import datetime, timezone
@@ -357,7 +364,7 @@ stories_frame = tk.Frame(app, bg=BG_COLOR)
 stories_frame.pack(fill="both", expand=True)
 
 app.mainloop()
-</code></pre>
+```
 
 ### Conclusion
 This script effectively showcases my ability to work with external APIs, process data, and present it in a user-friendly manner. Future enhancements could include a web interface for broader accessibility.
