@@ -275,6 +275,7 @@ stories_frame.pack(fill="both", expand=True)
 
 app.mainloop()
 ```
+![](/images/hnimage.png)
 
 ### Full Script
 ```python
