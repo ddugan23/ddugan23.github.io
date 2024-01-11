@@ -19,7 +19,7 @@ The task was to develop a program that:
 ### Reading .HEIC Files
 The first step in the conversion process was to read the .HEIC files. This was achieved using the `libheif` library.
 
-```C
+```cpp
 struct heif_context* ctx = heif_context_alloc();
 struct heif_error error = heif_context_read_from_file(ctx, input_path, NULL);
 
@@ -32,7 +32,7 @@ if (error.code != heif_error_Ok) {
 ### Converting to JPEG
 After successfully reading the .HEIC file, the next step was converting it to the JPEG format using `libjpeg`, a widely used library for JPEG operations.
 
-```C
+```cpp
 struct jpeg_compress_struct cinfo;
 struct jpeg_error_mgr jerr;
 cinfo.err = jpeg_std_error(&jerr);
@@ -55,7 +55,7 @@ jpeg_destroy_compress(&cinfo);
 ### GUI Implementation
 The GUI, created using GTK+, is a key component of this project. It offers a more interactice and user-friendly way for users to select files and initiate the conversion process.
 
-```C
+```Cpp
 // Initialize GTK+
 gtk_init(&argc, &argv);
 
@@ -75,7 +75,7 @@ gtk_main();
 ### Handling User Input
 The program handles input through callbacks, ensuring a responsive and interactive experience. File choosers are used for selecting the .HEIC file and the output directory, while an entry field allows users to specify the output filename.
 
-```C
+```Cpp
 void on_input_file_set(GtkFileChooserButton *button, gpointer user_data) {
     gchar *filename = gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(button));
     strncpy(input_path, filename, sizeof(input_path));
@@ -92,7 +92,7 @@ void on_output_folder_set(GtkFileChooserButton *button, gpointer user_data) {
 ### Callback for Convert Button Click
 The `on_convert_clicked` function is triggered when the user clicks the "Convert" button. It handles the conversion process and updates the button label upon completion.
 
-```C
+```Cpp
 void on_convert_clicked(GtkButton *button, gpointer user_data) {
     GtkWidget *entry = GTK_WIDGET(user_data);
     const char *filename = gtk_entry_get_text(GTK_ENTRY(entry));
@@ -114,7 +114,7 @@ gcc `pkg-config --cflags gtk+-3.0` -o heic_to_jpeg conversion.c `pkg-config --li
 
 
 ### Full Program
-```C
+```Cpp
 #include <gtk/gtk.h>
 #include <jpeglib.h>
 #include <libheif/heif.h>
