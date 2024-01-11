@@ -19,6 +19,8 @@ I am primarily seeking roles in operations or project management, and while my i
 
 If you're looking for someone reliable and hard-working who can bring a fresh perspective to your team, or if you'd like to collaborate, please feel free to reach out! As a sole proprietor, I am open to both full-time positions and contract work.
 
+Oh yeah, and outside of work I'm a bit of a gym bro, I'm an avid watcher and bettor of most major sports (I promise my all-time P/L is positive), I play chess, and I have an affinity for a number of arcade and PC-based rhythm games.
+
 | Certification | Date | Description |
 |---|---|---|
 | [Professional Scrum Master<sup>TM</sup> I (PSM 1)](https://www.credly.com/badges/417e92f4-900b-4232-aad7-5efe204458d0/linked_in_profile) | 2023 | Demonstrated a fundamental level of Scrum mastery, including the concepts of applying Scrum, and proven an understanding of Scrum as described in the Scrum Guide. I have also demonstrated a consistent use of terminology and approach to Scrum. |
