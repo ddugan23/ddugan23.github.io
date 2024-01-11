@@ -6,18 +6,18 @@ collection: projects
 
 
 ## Introduction
-This post delves into the development of a C program I created for converting .HEIC images to JPEG format, featuring a graphical user interface (GUI). Through this project, I was able to develop a better understanding of image formats, memory management, and intuitive interface design.
+This post delves into the development of a C program I created for converting HEIC images to JPEG format, featuring a graphical user interface (GUI). Through this project, I was able to develop a better understanding of image formats, memory management, and intuitive interface design.
 
 ## Problem Definition
 The task was to develop a program that:
-- Efficiently converts .HEIC images to JPEG.
+- Efficiently converts HEIC images to JPEG.
 - Utilizes external libraries (`libheif` and `libjpeg`) for image processing.
 - Provides a simple and user-friendly GUI for interaction.
 
 ## Development Process
 
 ### Reading .HEIC Files
-The first step in the conversion process was to read the .HEIC files. This was achieved using the `libheif` library.
+The first step in the conversion process was to read the HEIC files. This was achieved using the `libheif` library.
 
 ```c
 struct heif_context* ctx = heif_context_alloc();
@@ -30,7 +30,7 @@ if (error.code != heif_error_Ok) {
 ```
 
 ### Converting to JPEG
-After successfully reading the .HEIC file, the next step was converting it to the JPEG format using `libjpeg`, a widely used library for JPEG operations.
+After successfully reading the HEIC file, the next step was converting it to the JPEG format using `libjpeg`, a widely used library for JPEG operations.
 
 ```c
 struct jpeg_compress_struct cinfo;
