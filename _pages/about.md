@@ -23,6 +23,8 @@ Oh yeah, and outside of work I'm a bit of a gym bro, I'm an avid watcher and bet
 
 | Certification | Date | Description |
 |---|---|---|
+| [Advanced Google Analytics (UA)](https://analytics.google.com/analytics/academy/certificate/zYjlvw4PQp2nbJNC9WE8SQ) | 2024 | Learned advanced techniques in Google Analytics for collecting, processing, and analyzing data, including custom configurations and marketing strategies like remarketing. |
+| [Google Analytics Certification (GA4)](https://skillshop.credential.net/329477a9-af67-4ca6-825a-98a4536c3df8) | 2024 | Demonstrated an understanding of Google Analytics, including how to set up and structure a property, and use various reporting tools and features. |
 | [Professional Scrum Master<sup>TM</sup> I (PSM 1)](https://www.credly.com/badges/417e92f4-900b-4232-aad7-5efe204458d0/linked_in_profile) | 2023 | Demonstrated a fundamental level of Scrum mastery, including the concepts of applying Scrum, and proven an understanding of Scrum as described in the Scrum Guide. I have also demonstrated a consistent use of terminology and approach to Scrum. |
 | [HubSpot Sales Software](https://app.hubspot.com/academy/achievements/32l0scv4/en/1/david-dugan/hubspot-sales-software) | 2023 | Demonstrated a mastery of the real-world application of inbound theory and practice using the HubSpot software. |
 | [HubSpot Marketing Software](https://app.hubspot.com/academy/achievements/xrcss8jf/en/1/david-dugan/hubspot-marketing-software) | 2023 | Demonstrated proficiency in the essential functions of Marketing Hub and its core tools. |
