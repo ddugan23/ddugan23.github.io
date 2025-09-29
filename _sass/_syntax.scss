@@ -19,13 +19,8 @@ div.highlighter-rouge, figure.highlight {
     padding: 0.5em;
     background-color: mix(#fff, #7a8288, 90%);
     content: "\f121";
-<<<<<<< HEAD
-    font-family: "fontawesome" !important;
-    font-size: $type-size-5;
-=======
-    font-family: "Font Awesome 6 Free" !important;
+    font-family: #{"Font Awesome 6 Free"} !important;
     font-size: $type-size-6;
->>>>>>> upstream/master
     line-height: 1;
     text-transform: none;
     speak: none;
@@ -34,11 +29,7 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-<<<<<<< HEAD
-    font-size: $type-size-5;
-=======
     font-size: $type-size-6;
->>>>>>> upstream/master
     line-height: 1.8;
   }
 }
