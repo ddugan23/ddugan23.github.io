@@ -1,5 +1,5 @@
 /* ==========================================================================
-   jQuery plugin settings and other scripts
+   Various functions that we want to use within the template
    ========================================================================== */
 
 $(document).ready(function () {
@@ -36,7 +36,15 @@ $(document).ready(function () {
   },
     didResize = false;
 
-  bumpIt();
+// Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// "system", the computed theme is determined based on the user's system preference.
+let determineComputedTheme = () => {
+  let themeSetting = determineThemeSetting();
+  if (themeSetting != "system") {
+    return themeSetting;
+  }
+  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+};
 
   $(window).resize(function () {
     didResize = true;
